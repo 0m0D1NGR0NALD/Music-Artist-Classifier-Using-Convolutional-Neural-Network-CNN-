@@ -12,3 +12,6 @@ def get_melspectrogram(wav_file_path):
   y, sr = librosa.load(wav_file_path, offset=0, duration=30)
   melspectrogram = numpy.array(librosa.feature.melspectrogram(y=y, sr=sr))
   return melspectrogram
+  
+# Chroma Vector
+def get_chroma_vector(wav_file_path):
