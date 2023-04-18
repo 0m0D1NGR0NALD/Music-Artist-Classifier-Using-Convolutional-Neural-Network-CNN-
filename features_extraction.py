@@ -18,3 +18,6 @@ def get_chroma_vector(wav_file_path):
   y, sr = librosa.load(wav_file_path)
   chroma = numpy.array(librosa.feature.chroma_stft(y=y, sr=sr))
   return chroma
+
+# Tonal Centroid Features (Tonnetz)
+def get_tonnetz(wav_file_path):
