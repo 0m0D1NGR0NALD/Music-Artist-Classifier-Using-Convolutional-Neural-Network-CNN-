@@ -23,3 +23,4 @@ def get_chroma_vector(wav_file_path):
 def get_tonnetz(wav_file_path):
   y, sr = librosa.load(wav_file_path)
   tonnetz = numpy.array(librosa.feature.tonnetz(y=y, sr=sr))
+  return tonnetz
