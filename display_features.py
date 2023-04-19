@@ -23,3 +23,4 @@ pyplot.show()
 
 # Tonal Centroid Features (Tonnetz)
 tntz = get_tonnetz(sample)
+pyplot.imshow(tntz , interpolation='nearest', aspect='auto')
