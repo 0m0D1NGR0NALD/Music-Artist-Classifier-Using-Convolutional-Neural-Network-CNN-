@@ -5,3 +5,6 @@ from extract_features import get_mfcc,get_melspectrogram,get_chroma_vector,get_t
 
 # Sample audio path
 audio = 'juliana_2.wav'
+
+# Mel Frequency Cepstral Coefficients (MFCC)
+mfcc = get_mfcc(sample)
