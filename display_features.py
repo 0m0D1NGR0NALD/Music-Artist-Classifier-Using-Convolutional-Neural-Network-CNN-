@@ -9,3 +9,4 @@ audio = 'juliana_2.wav'
 # Mel Frequency Cepstral Coefficients (MFCC)
 mfcc = get_mfcc(sample)
 pyplot.imshow(mfcc, interpolation='nearest', aspect='auto')
+pyplot.show()
