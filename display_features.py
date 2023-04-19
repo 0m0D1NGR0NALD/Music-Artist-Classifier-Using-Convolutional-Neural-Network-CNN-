@@ -20,3 +20,6 @@ pyplot.show()
 chroma = get_chroma_vector(sample)
 pyplot.imshow(chroma, interpolation='nearest', aspect='auto')
 pyplot.show()
+
+# Tonal Centroid Features (Tonnetz)
+tntz = get_tonnetz(sample)
