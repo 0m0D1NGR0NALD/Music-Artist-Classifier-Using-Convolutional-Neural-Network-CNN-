@@ -18,3 +18,4 @@ pyplot.show()
 
 # Chroma Vector
 chroma = get_chroma_vector(sample)
+pyplot.imshow(chroma, interpolation='nearest', aspect='auto')
