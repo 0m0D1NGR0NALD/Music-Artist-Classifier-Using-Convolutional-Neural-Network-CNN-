@@ -13,3 +13,4 @@ pyplot.show()
 
 # Mel Spectrogram
 melspectrogram = get_melspectrogram(sample)
+pyplot.imshow(melspectrogram, interpolation='nearest', aspect='auto')
