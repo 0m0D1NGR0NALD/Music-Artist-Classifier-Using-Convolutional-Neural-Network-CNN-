@@ -15,3 +15,6 @@ pyplot.show()
 melspectrogram = get_melspectrogram(sample)
 pyplot.imshow(melspectrogram, interpolation='nearest', aspect='auto')
 pyplot.show()
+
+# Chroma Vector
+chroma = get_chroma_vector(sample)
