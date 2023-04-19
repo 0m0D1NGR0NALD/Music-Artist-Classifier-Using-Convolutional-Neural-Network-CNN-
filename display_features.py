@@ -10,3 +10,6 @@ audio = 'juliana_2.wav'
 mfcc = get_mfcc(sample)
 pyplot.imshow(mfcc, interpolation='nearest', aspect='auto')
 pyplot.show()
+
+# Mel Spectrogram
+melspectrogram = get_melspectrogram(sample)
