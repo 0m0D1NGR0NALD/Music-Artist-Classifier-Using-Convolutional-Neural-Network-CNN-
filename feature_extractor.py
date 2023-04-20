@@ -7,3 +7,4 @@ def get_feature(file_path):
   mfcc = get_mfcc(file_path)
   mfcc_mean = mfcc.mean(axis=1)
   mfcc_min = mfcc.min(axis=1)
+  mfcc_max = mfcc.max(axis=1)
