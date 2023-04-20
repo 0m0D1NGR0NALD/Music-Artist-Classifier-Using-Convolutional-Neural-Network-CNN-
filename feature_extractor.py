@@ -9,3 +9,6 @@ def get_feature(file_path):
   mfcc_min = mfcc.min(axis=1)
   mfcc_max = mfcc.max(axis=1)
   mfcc_feature = numpy.concatenate((mfcc_mean, mfcc_min, mfcc_max))
+
+  # Extracting Mel Spectrogram feature
+  melspectrogram = get_melspectrogram(file_path)
