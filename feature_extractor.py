@@ -14,3 +14,4 @@ def get_feature(file_path):
   melspectrogram = get_melspectrogram(file_path)
   melspectrogram_mean = melspectrogram.mean(axis=1)
   melspectrogram_min = melspectrogram.min(axis=1)
+  melspectrogram_max = melspectrogram.max(axis=1)
