@@ -22,3 +22,4 @@ def get_feature(file_path):
   chroma_mean = chroma.mean(axis=1)
   chroma_min = chroma.min(axis=1)
   chroma_max = chroma.max(axis=1)
+  chroma_feature = numpy.concatenate( (chroma_mean, chroma_min, chroma_max) )
