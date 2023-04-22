@@ -30,3 +30,6 @@ def get_feature(file_path):
   tntz_min = tntz.min(axis=1)
   tntz_max = tntz.max(axis=1)
   tntz_feature = numpy.concatenate((tntz_mean, tntz_min, tntz_max)) 
+
+  feature = numpy.concatenate((chroma_feature,melspectrogram_feature,mfcc_feature,tntz_feature))
+ 
