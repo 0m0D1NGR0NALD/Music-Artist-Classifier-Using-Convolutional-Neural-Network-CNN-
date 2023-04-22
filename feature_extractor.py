@@ -16,3 +16,6 @@ def get_feature(file_path):
   melspectrogram_min = melspectrogram.min(axis=1)
   melspectrogram_max = melspectrogram.max(axis=1)
   melspectrogram_feature = numpy.concatenate( (melspectrogram_mean, melspectrogram_min, melspectrogram_max) )
+
+  # Extracting chroma vector feature
+  chroma = get_chroma_vector(file_path)
