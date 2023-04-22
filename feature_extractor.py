@@ -1,5 +1,5 @@
 import numpy
-from feature_extraction import get_mfcc,get_melspectrogram,get_chroma_vector,get_tonnetz
+from feature_extraction_fxns import get_mfcc,get_melspectrogram,get_chroma_vector,get_tonnetz
 
 # Putting the features together
 def get_feature(file_path):
