@@ -32,4 +32,4 @@ def get_feature(file_path):
   tntz_feature = numpy.concatenate((tntz_mean, tntz_min, tntz_max)) 
 
   feature = numpy.concatenate((chroma_feature,melspectrogram_feature,mfcc_feature,tntz_feature))
- 
+  return feature
