@@ -28,3 +28,4 @@ def get_feature(file_path):
   tntz = get_tonnetz(file_path)
   tntz_mean = tntz.mean(axis=1)
   tntz_min = tntz.min(axis=1)
+  tntz_max = tntz.max(axis=1)
