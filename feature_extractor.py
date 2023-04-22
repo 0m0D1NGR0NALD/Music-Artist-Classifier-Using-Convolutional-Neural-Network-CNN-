@@ -29,3 +29,4 @@ def get_feature(file_path):
   tntz_mean = tntz.mean(axis=1)
   tntz_min = tntz.min(axis=1)
   tntz_max = tntz.max(axis=1)
+  tntz_feature = numpy.concatenate((tntz_mean, tntz_min, tntz_max)) 
