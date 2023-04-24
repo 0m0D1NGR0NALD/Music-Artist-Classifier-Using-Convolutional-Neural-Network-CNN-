@@ -11,3 +11,4 @@ labels = []
 for artist in artists:
   print("Calculating features for artist : " + artist)
   for file in os.listdir(directory+"/"+artist):
+    file_path = directory+"/"+artist+"/"+file
