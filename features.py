@@ -14,3 +14,4 @@ for artist in artists:
     file_path = directory+"/"+artist+"/"+file
     features.append(get_feature(file_path))
     label = artists.index(artist)
+    labels.append(label)
