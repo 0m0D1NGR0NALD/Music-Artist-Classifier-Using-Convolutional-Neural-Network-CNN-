@@ -7,3 +7,5 @@ directory = 'path to dataset' # Dataset contains a folder for each class: 'chame
 artists = ['chameleon','juliana','kenzo','rema']
 features = []
 labels = []
+
+for artist in artists:
