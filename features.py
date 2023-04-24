@@ -1,3 +1,3 @@
 import os
 import numpy
-from feature_extractor import get_feature
+from features_extractor import get_feature
