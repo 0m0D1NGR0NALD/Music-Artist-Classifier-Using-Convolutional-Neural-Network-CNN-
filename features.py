@@ -16,3 +16,6 @@ for artist in artists:
     features.append(get_feature(file_path))
     label = artists.index(artist)
     labels.append(label)
+
+# Splitting the dataset into training, validation and testing set
+permutations = numpy.random.permutation(1049)
