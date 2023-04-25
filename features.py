@@ -21,6 +21,7 @@ for artist in artists:
 permutations = numpy.random.permutation(1049)
 features = numpy.array(features)[permutations]
 labels = numpy.array(labels)[permutations]
+
 features_train = features[0:843]
 labels_train = labels[0:843]
 features_val = features[843:948]
