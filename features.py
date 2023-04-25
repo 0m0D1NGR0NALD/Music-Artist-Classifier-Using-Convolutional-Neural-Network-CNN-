@@ -20,3 +20,4 @@ for artist in artists:
 # Splitting the dataset into training, validation and testing set
 permutations = numpy.random.permutation(1049)
 features = numpy.array(features)[permutations]
+labels = numpy.array(labels)[permutations]
