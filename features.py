@@ -67,3 +67,12 @@ model.compile(
     # List of metrics to monitor
     metrics=[keras.metrics.SparseCategoricalAccuracy()]
 )
+
+# Fit data to model for training
+model.fit(
+    x=features_train.tolist(),
+    y=labels_train.tolist(),
+    verbose=1,validation_data=(features_val.tolist(),
+    labels_val.tolist()),
+    epochs=100
+ )
