@@ -48,3 +48,6 @@ x = keras.layers.Flatten()(x)
 
 # Dense Layer
 x = keras.layers.Dense(units=128, activation='relu')(x)
+
+# Dropout Layer
+x = keras.layers.Dropout(0.5)(x)
