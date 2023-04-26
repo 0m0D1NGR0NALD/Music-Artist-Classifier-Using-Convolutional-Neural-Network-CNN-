@@ -63,5 +63,7 @@ model.compile(
     # Optimizer
     optimizer=keras.optimizers.RMSprop(),
     # Loss function to minimize
-    loss=keras.losses.SparseCategoricalCrossentropy()
+    loss=keras.losses.SparseCategoricalCrossentropy(),
+    # List of metrics to monitor
+    metrics=[keras.metrics.SparseCategoricalAccuracy()]
 )
