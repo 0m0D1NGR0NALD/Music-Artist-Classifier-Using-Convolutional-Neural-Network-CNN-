@@ -51,3 +51,6 @@ x = keras.layers.Dense(units=128, activation='relu')(x)
 
 # Dropout Layer
 x = keras.layers.Dropout(0.5)(x)
+
+# Output Dense Layer
+outputs = keras.layers.Dense(units=4, activation='softmax')(x)
