@@ -45,3 +45,6 @@ x = keras.layers.MaxPooling1D(pool_size=2)(x)
 
 # Flatten Layer
 x = keras.layers.Flatten()(x)
+
+# Dense Layer
+x = keras.layers.Dense(units=128, activation='relu')(x)
