@@ -41,3 +41,4 @@ x = keras.layers.MaxPooling1D(pool_size=2)(x)
 
 # Second Convolutional Layer
 x = keras.layers.Conv1D(filters=64, kernel_size=5, activation='relu')(x)
+x = keras.layers.MaxPooling1D(pool_size=2)(x)
