@@ -57,3 +57,6 @@ outputs = keras.layers.Dense(units=4, activation='softmax')(x)
 
 # CNN Model
 model = keras.Model(inputs=inputs, outputs=outputs)
+
+# Compile Model
+model.compile()
