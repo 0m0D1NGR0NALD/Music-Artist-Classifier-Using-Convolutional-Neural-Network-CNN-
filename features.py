@@ -32,6 +32,7 @@ features_test = features[948:1049]
 labels_test = labels[948:1049]
 
 # Model Architecture Development
+# Input layer
 inputs = keras.Input(shape=(498,1), name="feature")
 
 # First Convolutional Layer
