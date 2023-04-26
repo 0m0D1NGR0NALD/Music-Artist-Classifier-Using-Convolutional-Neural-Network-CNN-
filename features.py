@@ -59,4 +59,7 @@ outputs = keras.layers.Dense(units=4, activation='softmax')(x)
 model = keras.Model(inputs=inputs, outputs=outputs)
 
 # Compile Model
-model.compile()
+model.compile(
+    # Optimizer
+    optimizer=keras.optimizers.RMSprop()
+)
