@@ -76,3 +76,6 @@ model.fit(
     labels_val.tolist()),
     epochs=100
  )
+
+# Save Model
+model.save('artist_classifier.h5')
