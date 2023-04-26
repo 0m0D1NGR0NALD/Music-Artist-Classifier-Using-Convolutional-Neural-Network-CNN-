@@ -61,5 +61,7 @@ model = keras.Model(inputs=inputs, outputs=outputs)
 # Compile Model
 model.compile(
     # Optimizer
-    optimizer=keras.optimizers.RMSprop()
+    optimizer=keras.optimizers.RMSprop(),
+    # Loss function to minimize
+    loss=keras.losses.SparseCategoricalCrossentropy()
 )
