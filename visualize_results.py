@@ -22,3 +22,4 @@ metrics[['sparse_categorical_accuracy','val_sparse_categorical_accuracy']
 # Labelling Graph
 plt.grid()
 plt.title('Model Accuracy')
+plt.ylabel('Accuracy')
