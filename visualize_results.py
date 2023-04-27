@@ -11,3 +11,4 @@ metrics[['loss','val_loss']].plot()
 # Labelling Graph
 plt.grid()
 plt.title('Model Loss')
+plt.ylabel('Loss')
