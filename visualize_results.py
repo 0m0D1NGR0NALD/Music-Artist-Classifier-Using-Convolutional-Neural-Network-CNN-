@@ -23,3 +23,4 @@ metrics[['sparse_categorical_accuracy','val_sparse_categorical_accuracy']
 plt.grid()
 plt.title('Model Accuracy')
 plt.ylabel('Accuracy')
+plt.xlabel('Epochs')
