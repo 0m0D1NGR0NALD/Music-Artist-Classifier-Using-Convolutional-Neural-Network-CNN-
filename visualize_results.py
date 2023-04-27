@@ -7,3 +7,6 @@ metrics = pd.DataFrame(model.history.history)
 
 # Plot of train set loss and validation set loss
 metrics[['loss','val_loss']].plot()
+
+# Labelling Graph
+plt.grid()
