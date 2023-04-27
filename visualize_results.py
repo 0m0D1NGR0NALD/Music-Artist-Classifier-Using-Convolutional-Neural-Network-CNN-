@@ -18,5 +18,7 @@ plt.show()
 
 # Plot of train set accuracy and validation set accuracy
 metrics[['sparse_categorical_accuracy','val_sparse_categorical_accuracy']
+
 # Labelling Graph
 plt.grid()
+plt.title('Model Accuracy')
