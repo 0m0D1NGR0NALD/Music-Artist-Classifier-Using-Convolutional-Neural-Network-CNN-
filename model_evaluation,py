@@ -14,3 +14,6 @@ print(classification_report(labels_test,predictions,target_names=target_names))
 
 # Creating dataframe for confusion matrix
 cm = confusion_matrix(labels_test,predictions)
+cm_df = pd.DataFrame(cm,
+                     index = target_names,
+                     columns = target_names)
