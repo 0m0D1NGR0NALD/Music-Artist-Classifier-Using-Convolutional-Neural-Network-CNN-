@@ -22,3 +22,4 @@ cm_df = pd.DataFrame(cm,
 plt.figure(figsize=(5,4))
 sns.heatmap(cm_df, annot=True)
 plt.title('Confusion Matrix')
+plt.ylabel('Actual Values')
