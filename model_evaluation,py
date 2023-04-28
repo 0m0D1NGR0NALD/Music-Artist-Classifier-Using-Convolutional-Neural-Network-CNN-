@@ -6,3 +6,5 @@ from features import model,features_test
 # Predictions on test set
 pred = model.predict(features_test.tolist())
 predictions = np.argmax(pred, axis=1)
+
+target_names = ['chameleon','juliana','kenzo','rema']
