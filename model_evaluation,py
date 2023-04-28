@@ -20,3 +20,4 @@ cm_df = pd.DataFrame(cm,
 # Plotting the confusion matrix
 plt.figure(figsize=(5,4))
 sns.heatmap(cm_df, annot=True)
+plt.title('Confusion Matrix')
