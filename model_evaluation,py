@@ -11,3 +11,6 @@ target_names = ['chameleon','juliana','kenzo','rema']
 
 # Classification Report
 print(classification_report(labels_test,predictions,target_names=target_names))
+
+# Creating dataframe for confusion matrix
+cm = confusion_matrix(labels_test,predictions)
