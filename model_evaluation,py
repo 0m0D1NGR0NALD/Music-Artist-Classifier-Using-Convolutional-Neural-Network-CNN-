@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.metrics import classification_report,confusion_matrix
 import seaborn as sns
-from features import model,features_test
+from features import model,features_test,labels_test
 
 # Predictions on test set
 pred = model.predict(features_test.tolist())
