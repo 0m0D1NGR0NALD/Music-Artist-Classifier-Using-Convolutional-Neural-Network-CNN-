@@ -19,3 +19,4 @@ cm_df = pd.DataFrame(cm,
                      columns = target_names)
 # Plotting the confusion matrix
 plt.figure(figsize=(5,4))
+sns.heatmap(cm_df, annot=True)
