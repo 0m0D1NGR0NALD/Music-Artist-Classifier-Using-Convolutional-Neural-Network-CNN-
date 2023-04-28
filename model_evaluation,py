@@ -8,3 +8,6 @@ pred = model.predict(features_test.tolist())
 predictions = np.argmax(pred, axis=1)
 
 target_names = ['chameleon','juliana','kenzo','rema']
+
+# Classification Report
+print(classification_report(labels_test,predictions,target_names=target_names))
