@@ -17,3 +17,5 @@ cm = confusion_matrix(labels_test,predictions)
 cm_df = pd.DataFrame(cm,
                      index = target_names,
                      columns = target_names)
+# Plotting the confusion matrix
+plt.figure(figsize=(5,4))
