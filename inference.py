@@ -18,3 +18,4 @@ t1 = 30000 # In milliseconds
 t2 = 60000
 
 waveFile = AudioSegment.from_file(song)
+waveFile = waveFile[t1:t2]
