@@ -27,3 +27,4 @@ ipd.Audio('audio_sample.wav', autoplay=True)
 # Use trained model to classify the audio file
 file_path = "audio_sample.wav"
 feature = get_feature(file_path)
+prob = model.predict(feature.reshape(1,498))
