@@ -4,6 +4,8 @@ import IPython.display as ipd
 from features import model
 from features_extractor import get_feature
 
+artists = ['chameleon','juliana','kenzo','rema']
+
 # Path to inference data samples
 chameleon = 'Badilisha.mp3'
 rema = 'Lowooza Kunze.mp3'
