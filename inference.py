@@ -31,3 +31,6 @@ file_path = "audio_sample.wav"
 feature = get_feature(file_path)
 prob = model.predict(feature.reshape(1,498))
 pred = numpy.argmax(prob)
+
+# Print predicted artist's name
+print(artists[pred])
