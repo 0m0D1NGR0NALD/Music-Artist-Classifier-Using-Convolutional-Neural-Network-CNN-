@@ -23,3 +23,6 @@ waveFile.export('audio_sample.wav', format="wav")
 
 # Play the audio file
 ipd.Audio('audio_sample.wav', autoplay=True)
+
+# Use trained model to classify the audio file
+file_path = "audio_sample.wav"
