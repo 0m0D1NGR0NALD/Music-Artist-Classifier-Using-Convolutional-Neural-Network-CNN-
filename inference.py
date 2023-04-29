@@ -28,3 +28,4 @@ ipd.Audio('audio_sample.wav', autoplay=True)
 file_path = "audio_sample.wav"
 feature = get_feature(file_path)
 prob = model.predict(feature.reshape(1,498))
+pred = numpy.argmax(prob)
