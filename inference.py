@@ -16,3 +16,5 @@ song = chameleon
 # Crop wavefile to a 30 secods section and save the resulting file
 t1 = 30000 # In milliseconds
 t2 = 60000
+
+waveFile = AudioSegment.from_file(song)
