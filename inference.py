@@ -8,6 +8,7 @@ from features_extractor import get_feature
 chameleon = 'Badilisha.mp3'
 rema = 'Lowooza Kunze.mp3'
 juliana = 'Sanyu Lyange.mp3'
+kenzo = 'Sitya Loss.mp3'
 
 # Crop wavefile to a 30 secods section and save the resulting file
 t1 = 30000 # In milliseconds
