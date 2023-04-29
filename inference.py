@@ -19,3 +19,4 @@ t2 = 60000
 
 waveFile = AudioSegment.from_file(song)
 waveFile = waveFile[t1:t2]
+waveFile.export('audio_sample.wav', format="wav")
