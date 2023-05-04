@@ -1,5 +1,6 @@
 import os
 import numpy
+import keras
 from features_extractor import get_feature
 
 # Calculating features for the dataset
