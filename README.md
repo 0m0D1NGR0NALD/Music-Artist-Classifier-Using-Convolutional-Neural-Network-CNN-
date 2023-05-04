@@ -25,6 +25,8 @@ The preprocessing steps were applied to the dataset as follows :
 ![download](https://user-images.githubusercontent.com/97228745/236163337-44bfdcad-f5b6-403a-be45-ee9500af06d8.png)
 * Chroma Vector
 ![download](https://user-images.githubusercontent.com/97228745/236163656-4d7d2328-18cd-4063-8bf1-df016716a680.png)
+* Tonal Centroid Features (Tonnetz)
+![download](https://user-images.githubusercontent.com/97228745/236164153-599795d1-edf9-4af9-9860-41600acbe463.png)
 ## About Inference data
 The uploaded samples include songs like :
 * Badilisha.mp3 by Chameleon
