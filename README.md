@@ -20,7 +20,7 @@ The preprocessing steps were applied to the dataset as follows :
 2. Convert the audio files to the Mel-frequency cepstral coefficients (MFCCs) , Mel Spectrogram, Chroma Vector, Tonal Centroid Features (Tonnetz) representation
 ## Feature Extraction
 **Mel Frequency Cepstral Coefficients (MFCC)**
-<p align="center"><img src=![download](https://user-images.githubusercontent.com/97228745/236163103-6dc2deeb-5d46-4bae-aad1-57441b6d69e4.png)/></p>
+<p align="center"><img src=https://user-images.githubusercontent.com/97228745/236163103-6dc2deeb-5d46-4bae-aad1-57441b6d69e4.png/></p>
 
 **Mel Spectrogram**
 <p align="center"><img src=![download](https://user-images.githubusercontent.com/97228745/236163337-44bfdcad-f5b6-403a-be45-ee9500af06d8.png)/></p>
