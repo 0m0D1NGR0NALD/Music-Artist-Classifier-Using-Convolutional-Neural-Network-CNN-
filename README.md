@@ -25,14 +25,11 @@ The preprocessing steps were applied to the dataset as follows :
 <p align="center">
 ![download](https://user-images.githubusercontent.com/97228745/236163103-6dc2deeb-5d46-4bae-aad1-57441b6d69e4.png)</p>
 * Mel Spectrogram
-<p align="center">
-![download](https://user-images.githubusercontent.com/97228745/236163337-44bfdcad-f5b6-403a-be45-ee9500af06d8.png)</p>
+<p align="center">![download](https://user-images.githubusercontent.com/97228745/236163337-44bfdcad-f5b6-403a-be45-ee9500af06d8.png)</p>
 * Chroma Vector
-<p align="center">
-![download](https://user-images.githubusercontent.com/97228745/236163656-4d7d2328-18cd-4063-8bf1-df016716a680.png)</p>
+<p align="center">![download](https://user-images.githubusercontent.com/97228745/236163656-4d7d2328-18cd-4063-8bf1-df016716a680.png)</p>
 * Tonal Centroid Features (Tonnetz)
-<p align="center">
-![download](https://user-images.githubusercontent.com/97228745/236164153-599795d1-edf9-4af9-9860-41600acbe463.png)</p>
+<p align="center">![download](https://user-images.githubusercontent.com/97228745/236164153-599795d1-edf9-4af9-9860-41600acbe463.png)</p>
 ## About Inference data
 The uploaded samples include songs like :
 * Badilisha.mp3 by Chameleon
