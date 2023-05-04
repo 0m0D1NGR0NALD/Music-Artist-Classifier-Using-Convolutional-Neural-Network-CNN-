@@ -1,7 +1,7 @@
 # Music Artist Classifier Using Convolutional Neural Network(CNN)
 This project aims to classify music tracks based on the artist that created them, using Convolutional Neural Networks (CNNs).
 CNNs are a type of deep neural network that are commonly used for image classification tasks, but can also be applied to other types of data, including audio.
-
+![john-matychuk-gUK3lA3K7Yo-unsplash](https://user-images.githubusercontent.com/97228745/236167163-2c202085-a1e4-4d71-9706-75ea2537da2d.jpg)
 Photo by <a href="https://unsplash.com/es/@john_matychuk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">John Matychuk</a> on <a href="https://unsplash.com/photos/gUK3lA3K7Yo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ## Installation
 To use this project, you will need to have Python 3.6 or higher installed on your machine, along with the following libraries:
