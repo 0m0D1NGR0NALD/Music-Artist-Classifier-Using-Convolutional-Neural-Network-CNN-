@@ -23,7 +23,7 @@ The preprocessing steps were applied to the dataset as follows :
 ## Feature Extraction
 
 **Mel Frequency Cepstrl Coefficients (MFCC)**
-![download](https://user-images.githubusercontent.com/97228745/236163103-6dc2deeb-5d46-4bae-aad1-57441b6d69e4.png)
+<p align="center"><img src=![download](https://user-images.githubusercontent.com/97228745/236163103-6dc2deeb-5d46-4bae-aad1-57441b6d69e4.png)/></p>
 
 **Mel Spectrogram**
 ![download](https://user-images.githubusercontent.com/97228745/236163337-44bfdcad-f5b6-403a-be45-ee9500af06d8.png)
