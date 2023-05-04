@@ -17,7 +17,7 @@ To use this project, you will need to follow these steps:
 ## Preprocessing
 The preprocessing steps were applied to the dataset as follows :
 1. Load the audio files using the Librosa library.
-2. Convert the audio files to the Mel-frequency cepstral coefficients (MFCCs) representation
+2. Convert the audio files to the Mel-frequency cepstral coefficients (MFCCs) , Mel Spectrogram, Chroma Vector, Tonal Centroid Features (Tonnetz) representation
 ## Feature Extraction
 * Mel Frequency Cepstrl Coefficients (MFCC)
 ![download](https://user-images.githubusercontent.com/97228745/236163103-6dc2deeb-5d46-4bae-aad1-57441b6d69e4.png)
