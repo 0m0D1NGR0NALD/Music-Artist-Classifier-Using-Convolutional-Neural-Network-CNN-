@@ -14,3 +14,9 @@ To use this project, you will need to follow these steps:
 2. Extract features and train the model using : features.py
 3. Visualize training curves using : visualize_training_curves.py
 4. Evaluate and carry out inference using : model_evaluation.py and inference.py
+## About Inference data
+The uploaded samples include songs like :
+* Badilisha.mp3 by Chameleon
+* Lowooza Kunze.mp3 by Rema
+* Sanyu Lyange.mp3 by Juliana
+* Sitya Loss.mp3 by Kenzo
